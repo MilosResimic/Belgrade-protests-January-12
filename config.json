@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Milos Resimic"
+  },
+  "text": {
+    "more": "",
+    "intro": "Twitterverse of Belgrade anti-government protests against media censorship, political violence and rising autocracy in Serbia. There are 2909 nodes and 6889 edges. The network consists of tweets containing the hashtag #1od5miliona, posted between January 10, 4:34 PM,  and January 13, 10:15 AM. Two nodes are linked if one user retweets another user\u0027s tweet. The network suggests a clear polarization between pro- and anti-regime communities.",
+    "title": "Anti-government protests in Belgrade: #1od5miliona"
+  },
+  "legend": {
+    "edgeLabel": " retweet",
+    "colorLabel": "Modularity class",
+    "nodeLabel": "Twitter user"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
